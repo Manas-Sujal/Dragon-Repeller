@@ -1,0 +1,79 @@
+body {
+  background-color: #0E1525;
+  height:100vh;
+  width:100%;
+}
+
+#start {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+#text {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0E1525;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#game {
+  border-radius: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 550px;
+  max-height: 400px;
+  background-color: #1C2333;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#controls {
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 5px;
+  border-collapse: collapse;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#stats {
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px white solid;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#monsterStats {
+  font-family: 'Courier New', Courier, monospace;
+  display: none;
+  border: 1px white solid;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  background-color: darkred;
+}
+
+#button1,
+#button2,
+#button3 {
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+  background-color: #001425;
+  color: white;
+  padding: 5px;
+}
+
+
+
+.stat {
+  padding-right: 10px;
+}
